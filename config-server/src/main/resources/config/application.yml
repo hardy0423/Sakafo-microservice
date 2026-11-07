@@ -1,1 +1,6 @@
-# Configuration par défaut servie par le Config Server
+sakafo:
+  message: Welcome to SAKAFO Microservices!
+  environment: development
+
+  application:
+    description: Centralized configuration management
