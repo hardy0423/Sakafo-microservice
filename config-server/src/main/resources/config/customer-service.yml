@@ -4,10 +4,8 @@ server:
 spring:
   application:
     name: customer-service
-
-  data:
-    mongodb:
-      uri: mongodb://mongod:mongod@localhost:27017/sakafo_customer?authSource=admin
+  mongodb:
+    uri: mongodb://mongod:mongod@localhost:27017/sakafo_customer?authSource=admin
 
 eureka:
   client:
