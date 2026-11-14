@@ -1,20 +1,20 @@
-  server:
-    port: 8761
+server:
+  port: 8761
 
-  spring:
-    application:
-      name: discovery-server
+spring:
+  application:
+    name: discovery-server
 
-  eureka:
-    instance:
-      hostname: localhost
+eureka:
+  instance:
+    hostname: localhost
 
-    client:
-      register-with-eureka: false
-      fetch-registry: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
 
-  management:
-    endpoints:
-      web:
-        exposure:
-          include: health,info
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
